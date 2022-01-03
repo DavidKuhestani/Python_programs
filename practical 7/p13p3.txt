@@ -1,0 +1,9 @@
+a) When printed we get "None" at the end.
+None is the "default" return value of the print_max function as the function returns "anything".
+
+b) Basically nothing happens, cause it is not executed.
+The reason you can call it without paratheses, is such that you can pass the function around
+
+c) Nothing happens. print_max returns a reference to the function, and then
+we invoke it with print, so nothing happens.
+
